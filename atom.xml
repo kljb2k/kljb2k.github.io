@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>可乐加冰の博客</title>
+  <title>可乐加冰</title>
   
   <subtitle>枫</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>My First Post</title>
-    <link href="http://example.com/posts/62576.html"/>
-    <id>http://example.com/posts/62576.html</id>
+    <link href="http://example.com/2022/08/31/My-First-Post/"/>
+    <id>http://example.com/2022/08/31/My-First-Post/</id>
     <published>2022-08-31T11:40:22.000Z</published>
     <updated>2022-08-31T12:23:21.796Z</updated>
     
@@ -31,8 +31,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/posts/16107.html"/>
-    <id>http://example.com/posts/16107.html</id>
+    <link href="http://example.com/2022/08/31/hello-world/"/>
+    <id>http://example.com/2022/08/31/hello-world/</id>
     <published>2022-08-31T11:10:52.755Z</published>
     <updated>2022-08-31T12:23:21.799Z</updated>
     
