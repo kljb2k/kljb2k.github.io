@@ -47,10 +47,10 @@
     
     <entry>
       <title></title>
-      <link href="/abc.html"/>
-      <url>/abc.html</url>
+      <link href="/js/ali_font.js"/>
+      <url>/js/ali_font.js</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[@font-face {    font-family: "iconfont"; /* Project id 3418531 */    src: url('//at.alicdn.com/t/c/font_3418531_1nj2tn2200u.woff2?t=1663834506772') format('woff2'),         url('//at.alicdn.com/t/c/font_3418531_1nj2tn2200u.woff?t=1663834506772') format('woff'),         url('//at.alicdn.com/t/c/font_3418531_1nj2tn2200u.ttf?t=1663834506772') format('truetype');  }    .iconfont {    font-family: "iconfont" !important;    font-size: 16px;    font-style: normal;    -webkit-font-smoothing: antialiased;    -moz-osx-font-smoothing: grayscale;  }    .icon-xiaolaoshu:before {    content: "\e6ae";  }    .icon-xiaoniuniu:before {    content: "\e6b1";  }    .icon-xiaolaohu:before {    content: "\e6b9";  }    .icon-xiaotuzi:before {    content: "\e6ba";  }    .icon-xiaosheshe:before {    content: "\e6bb";  }    .icon-xiaoma:before {    content: "\e6bc";  }    .icon-xiaoyangyang:before {    content: "\e6bd";  }    .icon-xiaohouzi:before {    content: "\e6be";  }    .icon-xiaoji:before {    content: "\e6bf";  }    .icon-xiaogouzi:before {    content: "\e6c0";  }    .icon-xiaozhuzhu:before {    content: "\e6c1";  }    .icon-xiaohema:before {    content: "\e6c2";  }    .icon-xiaohuli:before {    content: "\e6c3";  }    .icon-xiaoqie:before {    content: "\e6c4";  }    .icon-xiaoshizi:before {    content: "\e6c5";  }    .icon-xiaolu:before {    content: "\e6c6";  }    .icon-xiaomaomao:before {    content: "\e6c7";  }    .icon-xiaoqingwa:before {    content: "\e6c8";  }    .icon-xiaoxiang:before {    content: "\e6c9";  }    .icon-xiaoxiongmao:before {    content: "\e6ca";  }  ]]></content>
       
     </entry>
     
@@ -69,10 +69,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/ali_font.js"/>
-      <url>/js/ali_font.js</url>
+      <link href="/js/runtime/runtime.min.js"/>
+      <url>/js/runtime/runtime.min.js</url>
       
-        <content type="html"><![CDATA[@font-face {    font-family: "iconfont"; /* Project id 3418531 */    src: url('//at.alicdn.com/t/c/font_3418531_1nj2tn2200u.woff2?t=1663834506772') format('woff2'),         url('//at.alicdn.com/t/c/font_3418531_1nj2tn2200u.woff?t=1663834506772') format('woff'),         url('//at.alicdn.com/t/c/font_3418531_1nj2tn2200u.ttf?t=1663834506772') format('truetype');  }    .iconfont {    font-family: "iconfont" !important;    font-size: 16px;    font-style: normal;    -webkit-font-smoothing: antialiased;    -moz-osx-font-smoothing: grayscale;  }    .icon-xiaolaoshu:before {    content: "\e6ae";  }    .icon-xiaoniuniu:before {    content: "\e6b1";  }    .icon-xiaolaohu:before {    content: "\e6b9";  }    .icon-xiaotuzi:before {    content: "\e6ba";  }    .icon-xiaosheshe:before {    content: "\e6bb";  }    .icon-xiaoma:before {    content: "\e6bc";  }    .icon-xiaoyangyang:before {    content: "\e6bd";  }    .icon-xiaohouzi:before {    content: "\e6be";  }    .icon-xiaoji:before {    content: "\e6bf";  }    .icon-xiaogouzi:before {    content: "\e6c0";  }    .icon-xiaozhuzhu:before {    content: "\e6c1";  }    .icon-xiaohema:before {    content: "\e6c2";  }    .icon-xiaohuli:before {    content: "\e6c3";  }    .icon-xiaoqie:before {    content: "\e6c4";  }    .icon-xiaoshizi:before {    content: "\e6c5";  }    .icon-xiaolu:before {    content: "\e6c6";  }    .icon-xiaomaomao:before {    content: "\e6c7";  }    .icon-xiaoqingwa:before {    content: "\e6c8";  }    .icon-xiaoxiang:before {    content: "\e6c9";  }    .icon-xiaoxiongmao:before {    content: "\e6ca";  }  ]]></content>
+        <content type="html"><![CDATA[var now=new Date;function createtime(){var t=new Date("01/09/2022 00:00:00");now.setTime(now.getTime()+250);var e=(now-t)/1e3/60/60/24,a=Math.floor(e),n=(now-t)/1e3/60/60-24*a,r=Math.floor(n);1==String(r).length&&(r="0"+r);var s=(now-t)/1e3/60-1440*a-60*r,i=Math.floor(s);1==String(i).length&&(i="0"+i);var o=(now-t)/1e3-86400*a-3600*r-60*i,l=Math.round(o);1==String(l).length&&(l="0"+l);let g="";g=r<18&&r>=9?`<img class='boardsign' src='https://npm.elemecdn.com/anzhiyu-blog@2.0.3/img/badge/安知鱼-上班摸鱼中.svg' title='距离月入25k也就还差一个大佬带我~'><span class='textTip'> <br> 本站居然运行了 ${a} 天</span><span id='runtime'> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`:`<img class='boardsign' src='https://npm.elemecdn.com/anzhiyu-blog@2.0.3/img/badge/安知鱼-下班啦.svg' title='下班了就该开开心心的玩耍，嘿嘿~'><span class='textTip'> <br> 本站居然运行了 ${a} 天</span><span id='runtime'> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=g)}setInterval(()=>{createtime()},250);]]></content>
       
     </entry>
     
@@ -91,10 +91,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/runtime/runtime.min.js"/>
-      <url>/js/runtime/runtime.min.js</url>
+      <link href="/abc.html"/>
+      <url>/abc.html</url>
       
-        <content type="html"><![CDATA[var now=new Date;function createtime(){var t=new Date("01/09/2022 00:00:00");now.setTime(now.getTime()+250);var e=(now-t)/1e3/60/60/24,a=Math.floor(e),n=(now-t)/1e3/60/60-24*a,r=Math.floor(n);1==String(r).length&&(r="0"+r);var s=(now-t)/1e3/60-1440*a-60*r,i=Math.floor(s);1==String(i).length&&(i="0"+i);var o=(now-t)/1e3-86400*a-3600*r-60*i,l=Math.round(o);1==String(l).length&&(l="0"+l);let g="";g=r<18&&r>=9?`<img class='boardsign' src='https://npm.elemecdn.com/anzhiyu-blog@2.0.3/img/badge/安知鱼-上班摸鱼中.svg' title='距离月入25k也就还差一个大佬带我~'><span class='textTip'> <br> 本站居然运行了 ${a} 天</span><span id='runtime'> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`:`<img class='boardsign' src='https://npm.elemecdn.com/anzhiyu-blog@2.0.3/img/badge/安知鱼-下班啦.svg' title='下班了就该开开心心的玩耍，嘿嘿~'><span class='textTip'> <br> 本站居然运行了 ${a} 天</span><span id='runtime'> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=g)}setInterval(()=>{createtime()},250);]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
