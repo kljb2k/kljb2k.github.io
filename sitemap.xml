@@ -2,18 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://kljb2k.github.io/2022/08/31/hello-world/</loc>
+    <loc>https://kljb2k.github.io/2022/08/31/My-First-Post/</loc>
     
-    <lastmod>2022-08-31</lastmod>
+    <lastmod>2022-09-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://kljb2k.github.io/2022/08/31/My-First-Post/</loc>
+    <loc>https://kljb2k.github.io/2022/08/31/hello-world/</loc>
     
-    <lastmod>2022-08-31</lastmod>
+    <lastmod>2022-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://kljb2k.github.io/2022/09/23/%E6%97%A5%E8%AE%B0/</loc>
+    
+    <lastmod>2022-09-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://kljb2k.github.io/abc.html</loc>
+    
+    <lastmod>2022-09-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
